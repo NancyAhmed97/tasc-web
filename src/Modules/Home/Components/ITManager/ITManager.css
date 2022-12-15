@@ -1,0 +1,125 @@
+.ITManager{
+    padding: 80px 0 80px 73px;
+
+}
+.ITManager .ArIT
+{
+    position: relative;
+    right: 73px;
+}
+.ITManager ul{
+    display: flex;
+    flex-direction: row;
+}
+.ITManager .text-right .Title
+{
+    margin-right: 25px;
+}
+.ITManager ul li
+
+{
+list-style: url("../../../../Resources/Assets/checklistIcon.svg");
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+opacity: 0.67;
+padding-left: 5px;
+}
+.ITManager ul li:first-of-type
+
+{
+width: 272px;
+margin-left: -12px;
+
+}
+.ITManager ul li:last-of-type
+
+{
+width: 272px;
+margin-left: -5px;
+padding-left: 0px;
+
+
+}
+.ITManager ul div:first-of-type li:last-of-type
+
+{
+width: 274px;
+margin-top: 30px;
+}
+.ITManager ul div:first-of-type 
+
+{
+margin-right: 55px;
+}
+.ITManager .text-right ul div:first-of-type
+{
+    margin-left: 55px;
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .ITManager
+    {
+        padding: 50px 15px 50px 45px;    }
+    .ITManager ul li
+
+    {
+
+    padding-left: 0px;
+    }
+    .ITManager .ArIT
+{
+    position: relative;
+    right: 45px;
+}
+    .ITManager ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .ITManager ul div:first-of-type li:last-of-type
+
+{
+margin-bottom: 30px;
+}
+.ITManager ul li:first-of-type
+
+{
+width: 276px;
+margin-bottom: 25px;
+}
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+    .ITManager
+    {
+        padding: 50px 15px 50px 45px;    }
+    .ITManager ul li
+
+    {
+
+    padding-left: 0px;
+    }
+    .ITManager .img-container
+    {
+        display: flex;
+    }
+    .ITManager ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .ITManager ul div:first-of-type li:last-of-type
+
+{
+margin-bottom: 30px;
+}
+.ITManager ul li:first-of-type
+
+{
+width: 300px;
+margin-bottom: 25px;
+}
+.ITManager .ArIT {
+    position: relative;
+    left: 73px;
+    right: 0;
+}
+}

@@ -1,0 +1,239 @@
+.LatestPosts .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #426b87;
+  opacity: 0.75;
+}
+
+.LatestPosts a {
+  z-index: 200;
+  position: relative;
+  font-size: 14px;
+  font-family: "Gotham";
+  font-weight: 500;
+  text-decoration: none;
+}
+.LatestPosts a::after {
+  margin-left: 8px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.LatestPosts .text-right a::after {
+  margin-right: 8px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.LatestPosts .textContainer {
+  position: relative;
+  left: 9%;
+  top: 44%;
+}
+.LatestPosts .text-right .textContainer
+{
+  position: relative;
+  right: 9%;
+  top: 44%;
+}
+
+.LatestPosts .textContainer p {
+  margin: 0px;
+}
+.LatestPosts .textContainer .titlePragraph {
+  padding-bottom: 10px;
+  width: 40%;
+  font-family: "Gotham";
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.LatestPosts .textContainer .text-post {
+  padding-bottom: 10px;
+  width: 47%;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  opacity: 0.67;
+}
+.latest-posts-section[data-v-d078e6ae] {
+  height: 85vh;
+}
+
+.latest-posts-section__accordion[data-v-d078e6ae] {
+  display: flex;
+  height: 100%;
+}
+.latest-posts-section__accordion__img.img-1[data-v-d078e6ae] {
+  background-image: url(https://tasc.isomware.com/images/creative-background-male-hand-with-phone-2@2x.png);
+  background-position: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  flex: 6;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.latest-posts-section__accordion__img.img-2[data-v-d078e6ae] {
+  background-image: url("https://tasc.isomware.com/images/creative-background-male-hand-with-phone-1@2x.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  flex: 3;
+  transition: all 0.3s;
+  position: relative;
+}
+.latest-posts-section__accordion__img.img-2[data-v-d078e6ae]:hover {
+  flex: 8;
+}
+
+.latest-posts-section__accordion__img.img-3[data-v-d078e6ae] {
+  background-image: url(https://tasc.isomware.com/images/creative-background-male-hand-with-phone@2x.png);
+  background-position: 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  flex: 3;
+  transition: all 0.3s;
+  position: relative;
+}
+.latest-posts-section__accordion__img.img-3[data-v-d078e6ae]:hover {
+  flex: 8;
+}
+.LatestPosts .title {
+  font-family: "Gotham";
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  width: 70%;
+  padding-bottom: 35px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+  .latest-posts-section__accordion
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .LatestPosts .textContainer {
+    position: absolute;
+    left: 15%;
+    top: 55%;
+  }
+  .LatestPosts .text-right .textContainer {
+    position: absolute;
+    right: 9%;
+    top: 44%;
+}
+  .latest-posts-section__accordion__img.img-1[data-v-d078e6ae] {
+
+    flex: 15;
+ 
+  }
+  .latest-posts-section__accordion__img.img-2[data-v-d078e6ae] {
+    background-image: url("https://tasc.isomware.com/images/creative-background-male-hand-with-phone-1@2x.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    flex: 5;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .latest-posts-section__accordion__img.img-2[data-v-d078e6ae]:hover {
+    flex: 15;
+  }
+
+  .latest-posts-section__accordion__img.img-3[data-v-d078e6ae] {
+    background-image: url(https://tasc.isomware.com/images/creative-background-male-hand-with-phone@2x.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    flex: 5;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .latest-posts-section__accordion__img.img-3[data-v-d078e6ae]:hover {
+    flex: 15;
+  }
+} 
+@media only screen and (max-width: 768px) {
+  .LatestPosts .text-right .textContainer
+{
+  position: absolute !important;
+  top: 44%;
+  right:12%;
+
+}
+.LatestPosts .text-right .textContainer .titlePragraph
+{
+  width: 89%;
+}
+.LatestPosts .text-right .textContainer .text-post
+{
+  width: 60%;
+}
+  .latest-posts-section__accordion
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  .latest-posts-section__accordion__img.img-2 .textContainer,.latest-posts-section__accordion__img.img-3 .textContainer{
+    position: absolute;
+    left: 9%;
+    top: 19%;
+  }
+  .latest-posts-section__accordion__img.img-2 .textContainer .text-post,.latest-posts-section__accordion__img.img-3 .textContainer .text-post{
+ width: 83%;
+  }
+  .latest-posts-section__accordion__img.img-2 .textContainer .titlePragraph,.latest-posts-section__accordion__img.img-3 .textContainer .titlePragraph{
+ width: 61%;
+  }
+  .LatestPosts .title
+  {
+    width: 56%;
+  }
+  .LatestPosts .textContainer {
+    position: absolute;
+
+  }
+  .latest-posts-section__accordion__img.img-1[data-v-d078e6ae] {
+
+    flex: 25;
+ 
+  }
+  .latest-posts-section__accordion__img.img-2[data-v-d078e6ae] {
+    background-image: url("https://tasc.isomware.com/images/creative-background-male-hand-with-phone-1@2x.png");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    flex: 5;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .latest-posts-section__accordion__img.img-2[data-v-d078e6ae]:hover {
+    flex: 25;
+  }
+  .latest-posts-section__accordion__img.img-3[data-v-d078e6ae] {
+    background-image: url(https://tasc.isomware.com/images/creative-background-male-hand-with-phone@2x.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    flex: 5;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .latest-posts-section__accordion__img.img-3[data-v-d078e6ae]:hover {
+    flex: 25;
+  }
+}

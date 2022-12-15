@@ -1,0 +1,37 @@
+.RecentPostsContainer h2
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.RecentPostsContainer .title
+{
+    margin-top: 40px;
+}
+.RecentPostsContainer h2::after
+{
+ display: block;
+ content: url("../../../../../../../../Resources/Assets/Line\ 41.svg");
+ margin-right: 5px;
+}
+.RecentPostsContainer ul
+{
+    padding-left: 1rem;
+}
+.RecentPostsContainer li
+{
+ list-style: url("../../../../../../../../Resources/Assets/dott.svg");
+ opacity: 0.67;
+ font-size: 14px;
+ font-family: "Open Sans";
+ border-bottom: 1px solid #ECECEC;
+ padding-bottom: 15px;
+ padding-top: 15px;
+
+}
+.RecentPostsContainer li:last-of-type
+{
+
+ border-bottom: none;
+
+}

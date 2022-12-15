@@ -1,0 +1,64 @@
+.post {
+  position: relative;
+  margin-bottom: 125px;
+  width: 100%;
+}
+.post .Content {
+  padding-top: 24px;
+  width: 87%;
+  background-color: #fff;
+  padding-left: 24px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  position: absolute;
+  bottom: -85px;
+  left: 26px;
+  box-shadow: #8d98a0 0px 10px 13px;
+}
+.post .Content:hover .date {
+  display: none;
+}
+.post .Content:hover .arrowRight {
+  display: block;
+}
+.post .arrowRight {
+  display: none;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Gotham";
+  color: #9fb4c2 !important;
+}
+.post .arrowRight a {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Gotham";
+  color: #9fb4c2 !important;
+  text-decoration: none;
+}
+.post .arrowRight img {
+  margin-left: 10px;
+}
+.post .Content p:first-of-type {
+  color: #426b87;
+  opacity: 0.5;
+  font-size: 14px;
+  font-family: "Gotham";
+}
+.post .Content p:first-of-type img {
+  margin-right: 9px;
+}
+.post .Content h5 {
+  color: #426b87;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Gotham";
+}
+.post .postImg
+{
+  filter: grayscale(100%);
+  width: 100%;
+}
+.post .postImg:hover
+{
+  filter: grayscale(0%);
+}

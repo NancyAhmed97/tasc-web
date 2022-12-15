@@ -1,0 +1,136 @@
+.LandingSection
+{
+    background-image: url("../../../Resources/Assets/aboutLanding.png");
+    background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.Landing-pricing{
+    background-image: url("../../../Resources/Assets/pricingLanding.png");
+	background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.Landing-contact
+{
+    background-image: url("../../../Resources/Assets/ContactLanding.png");
+	background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.Landing-blog
+{
+	height: fit-content;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-color: #F9FBFD;
+    border: 1px solid #EBEFFC;
+}
+.Landing-blog h1
+{
+  color: #426B87 !important;
+}
+.Landing-blog ul li a,.Landing-blog ul li span
+{
+  color: #000 !important;
+  opacity: 0.63 !important;
+}
+.Landing-blog ul li a::after
+{
+content: "";
+width: 7px;
+height: 7px;
+border-radius: 50%;
+display: inline-block;
+background-color: #000;
+opacity: 0.63;
+margin-left: 12px;
+}
+.landing .landing-container
+{
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+
+}
+.landing .landing-container h1
+{
+    font-family: "Gotham";
+font-size: 39px;
+text-transform: uppercase;
+}
+.landing ul
+{
+    display: flex;
+    flex-direction: row;
+}
+.landing li
+{
+ list-style: none;
+ font-family: 'Poppins', sans-serif;
+font-size: 16px;
+}
+.landing li a
+{
+text-decoration: none;
+margin-right: 8px;
+}
+.landing li a::after
+{
+content: "";
+width: 7px;
+height: 7px;
+border-radius: 50%;
+display: inline-block;
+background-color: #fff;
+margin-left: 12px;
+}
+@media only screen and (max-width: 768px) {
+    .landing .landing-container h1
+    {
+        font-family: "Gotham";
+    font-size: 28px;
+    text-transform: uppercase;
+    }
+    .Landing-contact
+{
+    background-image: url("../../../Resources/mediaquery.png");
+	background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.Landing-pricing
+{
+    background-image: url("../../../Resources/pricingMediaQuery.png");
+	background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+.LandingSection
+{
+    background-image: url("../../../Resources/aboutMediaQuery.png");
+	background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+    padding-top: 127px;
+    padding-bottom: 127px;
+}
+}

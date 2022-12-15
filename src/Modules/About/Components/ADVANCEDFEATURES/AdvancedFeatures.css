@@ -1,0 +1,76 @@
+.AdvancedFeatures
+{
+    margin-top: 90px;
+    margin-bottom: 109px;
+}
+.AdvancedFeatures .AdvancedFeaturesContainer
+{
+    background-color: #EBEFFC;
+    border: 1px solid gainsboro;
+}
+
+.AdvancedFeatures .text-box
+{
+border-right: 1px solid gainsboro;
+height:359px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-right: 20px;
+text-align: center;
+
+}
+.AdvancedFeatures .arBox
+{
+border-right: 1px solid gainsboro;
+height:359px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-left: 20px;
+text-align: center;
+
+}
+.AdvancedFeatures .item:last-of-type .text-box
+{
+border-right: none;
+}
+.AdvancedFeatures .item:last-of-type .arBox
+{
+border-left: none;
+}
+.AdvancedFeatures .img-container
+{
+    height: 70px;
+    margin-bottom: 22px;
+    margin-top: 20px;
+}
+.AdvancedFeatures .item:first-of-type .img-container
+{
+    height: 70px;
+    margin-bottom: 22px;
+    margin-top: 0px;
+
+}
+.AdvancedFeatures .item:first-of-type p
+{
+   text-align: center;
+
+}
+.AdvancedFeatures h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #426B87;
+margin-bottom: 22px;
+}
+.AdvancedFeatures p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    opacity: 0.67;
+
+}

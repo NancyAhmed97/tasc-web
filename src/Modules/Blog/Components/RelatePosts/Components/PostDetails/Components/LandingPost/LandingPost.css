@@ -1,0 +1,43 @@
+.LandingPost h2 {
+  color: #426b87;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Gotham";
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.LandingPost .landingPost{
+  width: 100%;
+}
+.LandingPost p {
+  color: #426b87;
+  opacity: 0.5;
+  font-size: 14px;
+  font-family: "Gotham";
+  margin-bottom: 45px;
+}
+.LandingPost p img{
+    margin-right: 9px;
+}
+.LandingPost .paragraph
+{
+    margin-top: 50px;
+}
+.LandingPost .paragraph p
+{
+font-size: 14px;
+font-family: "Open Sans";
+color: #000;
+opacity: 0.67;
+margin-bottom: 29px;
+}
+@media only screen and (max-width: 768px) {
+  .LandingPost .landingPost{
+    width: 100%;
+  }
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+  .LandingPost .landingPost{
+    width: 100%;
+  }
+}

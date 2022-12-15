@@ -1,0 +1,162 @@
+.ConfirmyourdetailsForm .form
+{
+    display: flex;
+    justify-content: center;
+}
+.ConfirmyourdetailsForm h2
+{
+    color: #426B87;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Poppins';
+    margin-top: 42px;
+    margin-bottom: 37px;
+
+}
+.ConfirmyourdetailsForm .form form
+{
+    padding:40px 32px;
+    border: 1px solid #EBEFFC;
+    background-color: #F9FBFD;
+    margin-bottom: 100px;
+
+}
+.ConfirmyourdetailsForm .form form p:first-of-type
+{
+ color: #757575;
+ font-size: 15px;
+ font-family: "Open Sans";
+ margin-bottom: 20px;
+}
+.ConfirmyourdetailsForm .form form p span
+{
+ color: #000000;
+ font-size: 16px;
+ font-family: "Open Sans";
+ font-weight: bold;
+}
+.ConfirmyourdetailsForm .form form p:last-of-type
+{
+ color: #426B87;
+ font-size: 14px;
+ font-family: 'Poppins';
+ margin-top: 10px;
+
+}
+.ConfirmyourdetailsForm .form form p:last-of-type ul 
+{
+margin-left: 5rem;
+margin-top: -20px;
+margin-bottom: 89px;
+}
+.ConfirmyourdetailsForm .form form p:last-of-type ul li
+{
+ color: #757575;
+ font-size: 14px;
+ font-family: "Open Sans";
+font-weight: 600;
+list-style: none;
+
+}
+.ConfirmyourdetailsForm input
+{
+    width: 328px;
+    /* height: 55px; */
+    /* margin-bottom: 20px; */
+    border: 1px solid #EBEFFC;
+}
+.ConfirmyourdetailsForm input[type='radio'] 
+{
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+.arConfirmyourdetailsForm label
+{
+    position: relative;
+    top: 28px;
+    right: 13px;
+    font-family: "Poppins";
+    font-size: 12px;
+    color: #426B87 !important;
+}
+.arConfirmyourdetailsForm ul li input
+{
+    margin-left: 10px;
+}
+.ConfirmyourdetailsForm textarea
+{
+    margin-bottom: 20px;
+    border: 1px solid #EBEFFC;
+    resize: none;
+    width: 100%;
+    /* width: 686px;
+    height: 132px;
+    margin-left: 12px; */
+}
+.ConfirmyourdetailsForm .button button
+{
+    background-color: #426B87;
+    color:#fff;
+    width: 224px;
+    height: 50px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Poppins';
+
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+    .ConfirmyourdetailsForm input
+    {
+        width: 300px;
+        height: 55px;
+        margin-bottom: 20px;
+        border: 1px solid #EBEFFC;
+    }
+    .ConfirmyourdetailsForm .form form p:first-of-type
+{
+ color: #757575;
+ font-size: 11px;
+ font-family: "Open Sans";
+ margin-bottom: 20px;
+}
+.ConfirmyourdetailsForm .form form p span
+{
+ color: #000000;
+ font-size: 12px;
+ font-family: "Open Sans";
+ font-weight: bold;
+}
+}
+@media only screen and (max-width: 768px) {
+    .ConfirmyourdetailsForm .form form
+{
+    padding:40px 10px;
+    border: 1px solid #EBEFFC;
+    background-color: #F9FBFD;
+    margin-bottom: 100px;
+
+}
+    .ConfirmyourdetailsForm input
+    {
+        width: 100%;
+        height: 55px;
+        margin-bottom: 20px;
+        border: 1px solid #EBEFFC;
+    }
+    .ConfirmyourdetailsForm .form form p:first-of-type
+    {
+     color: #757575;
+     font-size: 11px;
+     font-family: "Open Sans";
+     margin-bottom: 20px;
+    }
+    .ConfirmyourdetailsForm .form form p span
+    {
+     color: #000000;
+     font-size: 12px;
+     font-family: "Open Sans";
+     font-weight: bold;
+    }
+}

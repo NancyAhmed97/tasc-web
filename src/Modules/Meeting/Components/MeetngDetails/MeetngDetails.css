@@ -1,0 +1,45 @@
+.MeetngDetails h2{
+    color: #426B87;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Poppins';
+
+}
+.MeetngDetails p:first-of-type 
+{
+opacity: 0.60;
+font-size: 16px;
+font-family: 'Poppins';
+
+}
+.MeetngDetails p:first-of-type span
+{
+opacity: 0.60;
+font-size: 16px;
+font-weight: 600;
+font-family: 'Poppins';
+margin-right: 10px;
+
+}
+.MeetngDetails p:last-of-type 
+{
+opacity: 0.67;
+font-size: 14px;
+font-weight: 600;
+font-family: "Open Sans";
+margin-right: 10px;
+
+}
+.MeetngDetails ul li 
+{
+opacity: 0.67;
+font-size: 14px;
+font-family: "Open Sans";
+list-style: none;
+}
+.MeetngDetails ul li::before
+{
+content: url("../../../../Resources/Assets/Ellipse\ 131.svg");
+display: inline-block;
+margin-right:15px
+}

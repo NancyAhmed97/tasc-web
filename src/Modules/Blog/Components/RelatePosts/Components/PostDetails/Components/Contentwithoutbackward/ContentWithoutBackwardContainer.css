@@ -1,0 +1,70 @@
+.ContentWithoutBackwardContainer .secondPost
+{
+  margin-left: 160px;
+}
+.ContentWithoutBackwardContainer h1 , .ContentWithoutBackwardContainer h2 {
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 27px;
+  margin-top: 45px;
+}
+.ContentWithoutBackwardContainer .sharePost {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.ContentWithoutBackwardContainer p,.ContentWithoutBackwardContainer ul li{
+    opacity: 0.67;
+    font-family: "Open Sans";
+    font-size: 14px;
+  list-style: none;
+  
+}
+
+.ContentWithoutBackwardContainer .pargraph li
+{
+  margin-bottom: 10px;
+}
+
+.ContentWithoutBackwardContainer .pargraph li::before
+{
+    content: url("../../../../../../../../Resources/Assets/dott.svg");
+    display: inline-block;
+    margin-right: 5px;
+}
+.ContentWithoutBackwardContainer .sharePost p{
+    color: #9FB4C2;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Gotham";
+    margin-right: 21px;
+
+}
+.ContentWithoutBackwardContainer .sharePost li{
+
+    margin-right: 21px;
+
+}
+.ContentWithoutBackwardContainer .sharePost {
+ margin-bottom: 35px;
+ padding-top: 24px;
+margin-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .ContentWithoutBackwardContainer .secondPost
+  {
+    margin-left: 0px;
+  }
+  .ContentWithoutBackwardContainer .imgContainer img{
+    width: 100%;
+  }
+  .ContentWithoutBackwardContainer .imgContainer img:last-of-type{
+    margin-top: 25px;
+  }
+}
+
+@media  (min-width: 768px) and (max-width: 991px) {
+  .ContentWithoutBackwardContainer .imgContainer img{
+    width: 100%;
+  }
+}

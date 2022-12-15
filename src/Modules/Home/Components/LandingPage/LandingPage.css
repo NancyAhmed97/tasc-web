@@ -1,0 +1,182 @@
+.landingPage {
+	/* height: fit-content; */
+	background-image: url("../../../../Resources/Assets/LandingPage6491.png");
+	background-attachment: bottom;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: fit-content;
+
+
+}
+.landingPage .Ar
+{
+	text-align: right;
+}
+
+.landingPage .light{
+	font-family: 'Gotham';
+	src: url('././../../../../Resources/Fonts/GothamBook.ttf'); /* IE9 Compat Modes */
+	 font-style: normal;
+	 font-size: 24px;
+
+}
+.landingPage .lighter{
+	font-family: "Gotham";
+	src: url('././../../../../Resources/Fonts/GothamBook.ttf'); /* IE9 Compat Modes */
+	font-style: normal;
+	font-size: 16px;
+	width: 79%;
+
+
+}
+.landingPage h1{
+	font-family: "Gotham";
+	font-size: 39px;
+	font-weight: bold;
+	text-transform:uppercase;
+	src: url('././../../../../Resources/Fonts/GothamBold.ttf'); /* IE9 Compat Modes */
+	font-style: normal;
+}
+.landingPage .contact-btn
+{
+	margin-right: 25px;
+	background-color: transparent;
+	border: 1px #fff solid;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+.landingPage .contact-btn a
+{
+
+	color: #fff;
+	text-decoration: none !important;
+
+}
+.landingPage .aboutus-btn
+{
+	font-family: 'Poppins', sans-serif;
+	margin-right: 25px;
+	background-color: #fff;
+	border: none;
+	font-size: 16px;
+	color: #426B87;
+}
+.landingPage .aboutus-btn a
+{
+
+	color: #426B87;
+	text-decoration: none !important;
+}
+.landingPage .container
+{
+	height: 85%;
+}
+.landingPage .row{
+	height: 100%;
+}
+.landingPage .landinpage-content
+{
+	display: flex;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+padding-left: 60px;
+}
+.landingPage .landinpage-text
+{
+padding-top: 50px;
+}  
+.landingPage .landingpage-btn
+{
+padding-bottom: 85px;
+}  
+@media only screen and (max-width: 768px) {
+	.landingPage .landinpage-text
+	{
+		width:95% !important;
+	}
+	.landingPage .landinpage-text
+{
+padding-top: 25px;
+}  
+	.landingPage .landingpage-btn
+	{
+	padding-bottom: 40px;
+	}  
+	.landingPage .contact-btn {
+		margin-right: 10px !important;
+	}
+	.landingPage h1{
+		font-family: "Gotham";
+		font-size: 28px;
+		font-weight: bold;
+		text-transform:uppercase;
+	}
+	.landingPage .light{
+		font-family: "Gotham Book Italic";
+		font-size: 18px;
+	
+	}
+	.landingPage .lighter{
+		font-family: "Gotham Book Italic";
+		font-size: 12px;
+		width: 79%;
+	
+	}
+	.landingPage .contact-btn
+{
+	margin-right: 25px;
+	background-color: transparent;
+	border: 1px #fff solid;
+	font-size: 14px;
+	color: #fff;
+}
+.landingPage .aboutus-btn
+{
+	margin-right: 17px;
+	
+}.landingPage .landinpage-content{
+	padding-left: 30px;
+}
+}
+@media  (min-width: 768px) and (max-width: 991px) {
+ .landingPage .landinpage-text
+ {
+	 width: 75% !important;
+ }   
+ .landingPage .landingpage-btn
+{
+padding-bottom: 40px;
+}
+.landingPage .landinpage-text
+{
+padding-top: 25px;
+}  
+.landingPage h1{
+	font-family: "Gotham";
+	font-size: 32px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+.landingPage .light{
+	font-family: "Gotham Book Italic";
+	font-size: 24px;
+
+}
+.landingPage .lighter{
+	font-family: "Gotham Book Italic";
+	font-size: 14px;
+	width: 79%;
+
+}
+.landingPage .contact-btn
+{
+	margin-right: 25px;
+	background-color: transparent;
+	border: 1px #fff solid;
+	font-size: 14px;
+	color: #fff;
+}
+}
+

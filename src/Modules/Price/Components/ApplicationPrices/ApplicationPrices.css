@@ -1,0 +1,282 @@
+.ApplicationPrices .title h2 {
+  font-family: "Gotham";
+  font-size: 35px;
+  font-weight: bold;
+  color: #426b87;
+}
+
+.ApplicationPrices .priceDetails
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #F9FBFD;
+  margin: auto;
+  padding-left: 13px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: fit-content;
+  border: 1px solid #EBEFFC;
+  margin-top: 34px;
+}
+.ApplicationPrices .priceDetails div:first-of-type
+{
+padding:9px 22px 12px 22px;
+margin-right: 16px;font-size: 16px;
+font-weight: 500;
+font-family: "Poppins";
+}
+.ApplicationPrices .priceDetails div:last-of-type
+{
+/* opacity: 0.34; */
+font-size: 16px;
+font-weight: 500;
+font-family: "Poppins";
+display: flex;
+align-items: center;
+
+}
+.ApplicationPrices .Application ,.ApplicationPrices .Implementation
+{
+  color: #426b87;
+  opacity: 0.34;
+  cursor: pointer;
+
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 51px;
+}
+table tr th p:first-of-type {
+  font-family: "Gotham";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+table tr th p:last-of-type {
+  font-family: "Gotham";
+  font-size: 28px;
+  font-weight: bold;
+  color: #426b87;
+  padding: 0;
+  margin: 0;
+}
+table tr td {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Gotham";
+  color: #426b87;
+}
+th:first-of-type {
+  border: none;
+  text-align: center;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+table tr td:first-of-type {
+  text-align: left;
+}
+tr:nth-child(even) {
+  border-right: 1px solid #ebeffc;
+  background: #f9fbfd;
+  text-align: center;
+}
+tr:nth-child(odd) td:first-of-type {
+  border-left: none !important;
+}
+.ApplicationPrices .AppCustomization
+{
+  border-right: none;
+}
+.ApplicationPrices .emptyCell
+{
+  border-left: none;
+  border-right: none;
+}
+.ApplicationPrices .lastEmptyCell
+{
+  border-left: none;
+}
+.ApplicationPrices ul {
+  margin-bottom: 70px;
+}
+.ApplicationPrices ul li {
+  list-style: none;
+  font-size: 14px;
+  font-family: "Open Sans";
+  opacity: 0.67;
+  padding-left: 20px;
+  display: flex;
+justify-content: space-between;
+width: 37.5%;
+}
+
+.ApplicationPrices ul li::before {
+  content: url("../../../../Resources/Assets/doubleStar.svg");
+display: inline-block;
+position: relative;
+top: 6px;
+}
+.ApplicationPrices ul li:first-of-type {
+  font-size: 14px;
+  font-family: "Open Sans";
+  opacity: 0.67;
+  display: flex;
+justify-content: space-between;
+width: 34%;
+}
+.ApplicationPrices .text-right  li:first-of-type
+{
+  width: 20% ;
+
+}
+.ApplicationPrices .text-right  li
+{
+  width: 19.5%;
+
+}
+.ApplicationPrices ul li:first-of-type::before {
+content: url("../../../../Resources/Assets/star.svg");
+display: inline-block;
+position: relative;
+top: 6px;
+}
+.ApplicationPrices ul li:last-of-type {
+  font-size: 14px;
+  font-family: "Open Sans";
+  opacity: 0.67;
+  display: flex;
+justify-content: space-between;
+width: 53%;
+}
+.ApplicationPrices .text-right  li:last-of-type
+{
+  width: 34%;
+
+}
+.ApplicationPrices ul li:last-of-type::before {
+content: url("../../../../Resources/Assets/asset1.svg");
+display: inline-block;
+position: relative;
+top: 6px;}
+.ApplicationPrices .button {
+  text-align: center;
+}
+.ApplicationPrices button {
+  height: 50px;
+  width: 224px;
+  background-color: #426b87;
+  border: none;
+
+  margin-bottom: 95px;
+}
+.ApplicationPrices .button a {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: #fff;
+  text-decoration: none;
+
+}
+.ApplicationPrices .active
+{
+  background-color: #426B87;
+  color: #fff;
+  cursor: pointer;
+  padding:9px 10px 12px 12px;
+
+}
+@media only screen and (max-width: 768px) {
+
+  .ApplicationPrices .text-right li:last-of-type {
+    width: 100%;
+  }
+  .ApplicationPrices .text-right li:first-of-type {
+    width: 60%;
+  }
+  .ApplicationPrices .text-right li {
+    width: 60%;
+  }
+  .ApplicationPrices ul
+  {
+    padding: 0;
+    margin: 0;
+  }
+  .ApplicationPrices ul li {
+
+  width: 100%;
+  margin-bottom: 15px;
+  }
+  .ApplicationPrices ul li:last-of-type {
+
+    width: 100%;
+}
+.ApplicationPrices .priceDetails
+{
+  display: flex;
+  flex-direction: row;
+  background-color: #F9FBFD;
+  margin: auto;
+  padding-left: 13px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: fit-content;
+  margin-right: 15px;
+  border: 1px solid #EBEFFC;
+  margin-top: 34px;
+}
+.ApplicationPrices .priceDetails div:first-of-type , .ApplicationPrices .priceDetails div:last-of-type
+{
+font-size: 12px;
+
+}
+
+  .ApplicationPrices ul li:first-of-type {
+
+    width: 100%;
+}
+  table {
+    width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+  }
+  table tr td {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gotham";
+    color: #426b87;
+  }
+  .ApplicationPrices .button {
+    margin-top: 25px;
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  table {
+    width: 100%;
+    table-layout: fixed;
+    overflow-wrap: break-word;
+  }
+  table tr td {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Gotham";
+    color: #426b87;
+  }
+  
+  .ApplicationPrices .text-right li:last-of-type {
+    width: 57%;
+  }
+  .ApplicationPrices .text-right li:first-of-type {
+    width: 33%;
+  }
+  .ApplicationPrices .text-right li {
+    width: 32%;
+  }
+}

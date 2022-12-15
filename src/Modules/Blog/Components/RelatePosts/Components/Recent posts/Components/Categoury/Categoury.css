@@ -1,0 +1,59 @@
+.Categoury h2
+{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+.Categoury h2::after
+{
+ display: block;
+ content: url("../../../../../../../../Resources/Assets/Line\ 41.svg");
+ margin-right: 5px;
+}
+.Categoury ul
+{
+    padding-left:0;
+}
+.Categoury li
+{
+ opacity: 0.67;
+ font-size: 14px;
+ font-family: "Open Sans";
+ border-bottom: 1px solid #ECECEC;
+ padding-bottom: 15px;
+ padding-top: 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.Categoury li div:first-of-type:before
+{
+display: inline-block;
+content: url("../../../../../../../../Resources/Assets/dott.svg");
+margin-right: 7px;
+
+}
+.Categoury li div:first-of-type
+{
+cursor: pointer;
+
+}
+.Categoury li:last-of-type
+{
+
+ border-bottom: none;
+
+}
+.Categoury .number
+{
+    width: 30px;
+    height: 30px;
+    background-color: #EEEEEE;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: 600;
+font-family: "Gotham";
+color: #426B87;
+}

@@ -1,0 +1,315 @@
+/* .LoginContainer {
+  height: 518.63px;
+  width: 930px;
+  margin-left: 90px;
+}
+.login .formContainer {
+  background-color: #fff;
+  padding: 50px 36px;
+  box-shadow: 5px 10px 8px 10px #ebeffc;
+  position: relative;
+}
+.login h4 {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+    margin-bottom: 12px;
+}
+.login p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.login ::placeholder {
+  color: #426b87;
+  font-size: 12;
+  font-weight: 400;
+  font-family: "Poppins";
+  opacity: 1;
+}
+
+
+.login .Remember {
+  color: #757575 !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.login a {
+  color: #426b87;
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.login .checkbox label
+{
+  position: static !important;
+  margin-bottom: 25px;
+}
+.login .forgetPass {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+}
+.login .forgetPass a{
+  font-family: 'Poppins', sans-serif;
+font-weight: 400;
+font-size: 12px;
+}
+.login .passSeen {
+  position: absolute;
+  left: 85%;
+  bottom: 220px;
+}
+.login .input
+{
+  background-color: #F9FBFD !important;
+  border: 1px solid #EBEFFC;
+}
+.login button {
+  width: 148px;
+  height: 37px;
+  background-color: #426b87;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  border: none;
+}
+@media only screen and (max-width: 768px) {
+  .login .img-container {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    position: static;
+  }
+  .login .img-container img
+  {
+    width: 100% !important;
+  }
+  .LoginContainer {
+    height: 518.63px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .login .passSeen {
+    position: absolute;
+    left: 80%;
+    bottom: 38%;
+}
+.login .formContainer{
+  margin-top: 25px;
+
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .login .img-container {
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  
+    background-size: contain;
+    width: 100%;
+    position: static;
+  }
+  .login .img-container img
+  {
+    width: 100% !important;
+  }
+  .LoginContainer {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .login .passSeen {
+    position: absolute;
+    left: 81%;
+    bottom: 34%;
+}
+.login .formContainer{
+  margin-top: 25px;
+
+}
+} */
+.arlogin .passSeen {
+  position: absolute;
+  right: 89%;
+  bottom: 195px;
+}
+
+.login h4 {
+  font-size: 19px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+    margin-bottom: 12px;
+}
+.login p {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.login .checkbox label
+{
+  position: static !important;
+  margin-bottom: 25px;
+}
+.login .formContainer {
+  position: relative;
+}
+.login .forgetPass 
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.login .Remember {
+  color: #757575 !important;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+.arlogin label{
+  position: relative;
+  top: 28px;
+  right: 13px;
+}
+.login .passSeen {
+  position: absolute;
+  left: 89%;
+  bottom: 180px;
+}
+.login button
+{
+  width: 148px;
+  height: 37px;
+  background-color: #426b87;
+  color: #fff;
+  border: none;
+  margin-top: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.login .checkAccount{
+  color: #757575;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 30px;
+
+}
+.login .forgetPassForm
+{
+  background-color: #fff;
+  padding: 35px 36px;
+  box-shadow: 5px 10px 8px 10px #ebeffc;
+  width: 85%;
+
+}
+.login .forgetPassCol
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .login .forgetPassForm
+  {
+    background-color: #fff;
+    padding: 50px 36px;
+    box-shadow: 5px 10px 8px 10px #ebeffc;
+    width: 100%; 
+  }
+  .arlogin label{
+    position: relative;
+    top: 28px;
+    right: 13px;
+  }
+  .arlogin .passSeen {
+    position: absolute;
+    right: 89%;
+    bottom: 195px;
+  }
+
+  .login .img-container img
+  {
+    width: 100%;
+  }
+	.login .LoginForm 
+{
+	display: flex;
+height: 55vh;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+@-moz-document url-prefix() {
+	.login .LoginForm
+	{
+		display: flex;
+	height: 56vh;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+  }
+
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .arlogin label{
+      position: relative;
+      top: 28px;
+      right: 13px;
+    }
+    .login .forgetPassForm
+    {
+      background-color: #fff;
+      padding: 50px 36px;
+      box-shadow: 5px 10px 8px 10px #ebeffc;
+      width: 100%;
+    
+    }
+    .arlogin .forgetPass 
+    {
+      font-size: 12px;
+    }
+    .login .img-container {
+      background-repeat: no-repeat;
+      margin-top: 30px;
+    
+      background-size: contain;
+      width: 100%;
+      position: static;
+    }
+    .login .img-container img
+    {
+      width: 100% !important;
+    }
+    .arlogin .passSeen {
+      position: absolute;
+      right: 89%;
+      bottom: 195px;
+    }
+    .arlogin .col-lg-6:last-of-type img {
+      width: 100%;
+    };
+    .LoginContainer {
+      width: 100%;
+      margin-left: 0px;
+    }
+    .login .passSeen {
+      position: absolute;
+      left: 88%;
+      bottom: 40%;
+  }
+  .login .formContainer{
+    margin-top: 25px;
+  
+  }
+
+  } 
+  

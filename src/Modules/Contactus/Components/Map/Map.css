@@ -1,0 +1,10 @@
+
+  .map iframe
+  {
+
+    width: 100% !important;
+  }
+  iframe {
+ 
+      filter: grayscale(100%);         
+}  
